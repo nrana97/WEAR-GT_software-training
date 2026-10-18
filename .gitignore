@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated data and outputs (regenerate with the scripts in each module)
+*.csv
+*.png
+!docs/**/*.png
+
+# Raw datasets are never committed
+data/raw/
+data/*.zip
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
