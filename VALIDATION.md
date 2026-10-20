@@ -11,3 +11,15 @@ Validation environment: Python 3.12. Student starter functions deliberately rais
 NotImplementedError. The reference verifier runs in temporary copies and does
 not fill in student exercises. No hardware or human data were used. These checks
 do not validate real-time acquisition, real sensor calibration, or device safety.
+
+## Expanded six-week curriculum revision
+
+- All 18 replacement lessons contain approximately 640–800 whitespace-delimited
+  words each, including code, compared with the shorter first-edition notes.
+- Every Python example block executed successfully in lesson order; examples
+  using the ML fixture were run with the supplied generator available.
+- Worked examples, units, expected results, exercises, and onward navigation
+  are included in each lesson.
+- A six-week plan specifies weekly workload, submissions, review questions,
+  final bridge experiment, and a seventh-week option for new programmers.
+- Project/checkpoint APIs and implementation files are unchanged by this revision.

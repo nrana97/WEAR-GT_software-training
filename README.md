@@ -6,7 +6,9 @@ You do not need any prior experience. Start at Level 0. If you already know a to
 
 ## How the program works
 
-Training is a **module ladder**, not a weekly schedule. Each module has the same three parts:
+Training is a **module ladder** with a [six-week learning plan](SIX_WEEK_PLAN.md).
+Plan for about **6–8 hours per week**, including coding, experiments, reports,
+and review. Beginners may need a seventh week. Each module has the same three parts:
 
 | Part | What it is |
 |---|---|
@@ -39,7 +41,9 @@ When you finish a checkpoint, open a pull request following [CONTRIBUTING.md](CO
 | 4 | [ML for movement](modules/04_ml_for_movement/) | Written (synthetic) |
 | 5 | [Deployment and safety](modules/05_deployment_safety/) | Written (synthetic) |
 
-Levels 3a and 3b are parallel branches. Pick either, or do both. Level 4 needs Levels 2 and 3a.
+Levels 3a and 3b are parallel branches. The six-week program includes both,
+with visualization spread across Weeks 2–4. Independent learners may choose
+a branch where appropriate. Level 4 needs Levels 2 and 3a.
 
 ## The capstone
 

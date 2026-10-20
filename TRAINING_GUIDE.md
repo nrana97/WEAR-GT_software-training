@@ -5,6 +5,14 @@ project, a separate checkpoint, deterministic synthetic-data generators,
 automated behavioral tests, and standalone reference implementations.
 Module 00 is preserved as supplied. New tests use unittest and also run under pytest.
 
+## Pace and expectations
+
+Follow [SIX_WEEK_PLAN.md](SIX_WEEK_PLAN.md) for the six-week route, about
+6–8 hours per week. It includes both visualization and signal processing,
+weekly artifacts, peer review, and a final handoff/bridge experiment.
+The 18 expanded lessons contain explanations, worked code, exercises,
+and expected results; reading alone does not complete the training.
+
 ## For learners
 
 Install requirements.txt in a virtual environment. Open a module README,

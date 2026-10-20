@@ -5,6 +5,12 @@
 ## Prerequisites
 Level 1 (or its checkpoint).
 
+## Expected effort
+
+Allow 45–75 minutes per lesson with its exercises, plus project, checkpoint,
+and review time. See the [six-week plan](../../SIX_WEEK_PLAN.md) for pacing
+and the artifacts to submit. The weekly plan includes both 3a and 3b.
+
 ## Work through this module
 
 1. [Streams and clock domains](lessons/01_streams.md)

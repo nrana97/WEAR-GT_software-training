@@ -5,6 +5,12 @@
 ## Prerequisites
 Level 0 (or its checkpoint).
 
+## Expected effort
+
+Allow 45–75 minutes per lesson with its exercises, plus project, checkpoint,
+and review time. See the [six-week plan](../../SIX_WEEK_PLAN.md) for pacing
+and the artifacts to submit. The weekly plan includes both 3a and 3b.
+
 ## Work through this module
 
 1. [Sensors, counts, and units](lessons/01_sensors_units.md)
