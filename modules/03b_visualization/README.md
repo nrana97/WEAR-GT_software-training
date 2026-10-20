@@ -1,22 +1,19 @@
 # Level 3b: Visualization and dashboards
 
-**Status: stub. Not yet written.**
-
-## Draft learning goals
-
-- Build clear static plots of multi-channel time series
-- Build a live view that updates while a session is being recorded
-- Design a session-review tool that lets a non-programmer scan a recording
-- Choose plot types and layouts that make problems visible
+**Status: written — synthetic-data training edition.**
 
 ## Prerequisites
-
 Level 1 (or its checkpoint).
 
-## Checkpoint idea
+## Work through this module
 
-Given a session file, produce a review dashboard that shows all channels, marks detected events, and flags data-quality problems.
+1. [Readable sensor plots](lessons/01_plots.md)
+2. [Replay and live views](lessons/02_live_view.md)
+3. [Session review and accessibility](lessons/03_review.md)
 
-## Open questions before writing this module
+Then complete the [guided project](project/README.md) and [checkpoint](checkpoint/README.md).
+All commands in task READMEs run from that task's directory. Install the root
+`requirements.txt` first. Tests deliberately fail on starter code.
 
-- Dashboard tooling (for example Plotly Dash, Streamlit, or Panel). Pick one the team will maintain.
+Data are synthetic; sensor ranges and thresholds are teaching assumptions,
+not WEAR hardware specifications. Discuss actual hardware choices with the team.

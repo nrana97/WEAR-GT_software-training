@@ -32,18 +32,18 @@ When you finish a checkpoint, open a pull request following [CONTRIBUTING.md](CO
 | Level | Module | Status |
 |---|---|---|
 | 0 | [Python and tooling](modules/00_python_tooling/) | Written |
-| 1 | [Sensors and time series](modules/01_sensors_timeseries/) | Stub |
-| 2 | [Data collection and logging](modules/02_data_collection_logging/) | Stub |
-| 3a | [Signal processing](modules/03a_signal_processing/) | Stub |
-| 3b | [Visualization and dashboards](modules/03b_visualization/) | Stub |
-| 4 | [ML for movement](modules/04_ml_for_movement/) | Stub |
-| 5 | [Deployment and safety](modules/05_deployment_safety/) | Stub |
+| 1 | [Sensors and time series](modules/01_sensors_timeseries/) | Written (synthetic) |
+| 2 | [Data collection and logging](modules/02_data_collection_logging/) | Written (synthetic) |
+| 3a | [Signal processing](modules/03a_signal_processing/) | Written (synthetic) |
+| 3b | [Visualization and dashboards](modules/03b_visualization/) | Written (synthetic) |
+| 4 | [ML for movement](modules/04_ml_for_movement/) | Written (synthetic) |
+| 5 | [Deployment and safety](modules/05_deployment_safety/) | Written (synthetic) |
 
 Levels 3a and 3b are parallel branches. Pick either, or do both. Level 4 needs Levels 2 and 3a.
 
 ## The capstone
 
-Every module's project feeds one shared team pipeline in [`capstone_pipeline/`](capstone_pipeline/): collect, log, clean, visualize, model. The goal is that finishing the training means you have helped build something the team actually uses.
+Every module's project develops a stage of one shared team pipeline in [`capstone_pipeline/`](capstone_pipeline/): collect, log, clean, visualize, model. The training interfaces are documented there; team production integration remains a separate task.
 
 ## Repo layout
 

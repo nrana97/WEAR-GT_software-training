@@ -1,23 +1,19 @@
 # Level 1: Sensors and time series
 
-**Status: stub. Not yet written.**
-
-## Draft learning goals
-
-- Explain what an IMU, EMG sensor, and force/pressure sensor each measure, and what their raw output looks like
-- Load, inspect, and plot multi-channel time series data
-- Reason about sampling rate, aliasing, resolution, and noise
-- Recognize common sensor problems: drift, saturation, dropouts, offset
+**Status: written — synthetic-data training edition.**
 
 ## Prerequisites
-
 Level 0 (or its checkpoint).
 
-## Checkpoint idea
+## Work through this module
 
-Given a raw multi-channel recording with documented sensor specs, convert raw counts to physical units, identify and describe three data-quality problems, and produce a labeled plot.
+1. [Sensors, counts, and units](lessons/01_sensors_units.md)
+2. [Sampling and timestamps](lessons/02_sampling.md)
+3. [Data-quality checks](lessons/03_quality.md)
 
-## Open questions before writing this module
+Then complete the [guided project](project/README.md) and [checkpoint](checkpoint/README.md).
+All commands in task READMEs run from that task's directory. Install the root
+`requirements.txt` first. Tests deliberately fail on starter code.
 
-- Which sensors will WEAR actually use? Confirm with the hardware lead before finalizing.
-- Which public datasets best match those sensors?
+Data are synthetic; sensor ranges and thresholds are teaching assumptions,
+not WEAR hardware specifications. Discuss actual hardware choices with the team.

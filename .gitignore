@@ -19,3 +19,6 @@ data/*.zip
 .DS_Store
 .vscode/
 .idea/
+
+# Level 2 synthetic demo sessions
+wear-demo-*/

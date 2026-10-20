@@ -1,22 +1,19 @@
 # Level 3a: Signal processing
 
-**Status: stub. Not yet written.**
-
-## Draft learning goals
-
-- Design and apply low-pass, high-pass, and band-pass filters, and know what each does to a signal
-- Reject artifacts and handle outliers
-- Segment recordings into gait cycles or movement events
-- Extract features from windows of data for use by ML models
+**Status: written — synthetic-data training edition.**
 
 ## Prerequisites
+Level 1; Level 2 is helpful.
 
-Level 1 (or its checkpoint). Level 2 helps but is not required.
+## Work through this module
 
-## Checkpoint idea
+1. [Filtering and artifacts](lessons/01_filters.md)
+2. [Movement events and segmentation](lessons/02_events.md)
+3. [Window and cycle features](lessons/03_features.md)
 
-Given a noisy recording, detect each gait cycle, extract a defined set of features per cycle, and output a feature table.
+Then complete the [guided project](project/README.md) and [checkpoint](checkpoint/README.md).
+All commands in task READMEs run from that task's directory. Install the root
+`requirements.txt` first. Tests deliberately fail on starter code.
 
-## Optional advanced topic
-
-Kalman filters for sensor fusion (for example, combining accelerometer and gyroscope for orientation).
+Data are synthetic; sensor ranges and thresholds are teaching assumptions,
+not WEAR hardware specifications. Discuss actual hardware choices with the team.

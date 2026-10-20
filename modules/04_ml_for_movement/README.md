@@ -1,23 +1,19 @@
 # Level 4: ML for movement
 
-**Status: stub. Not yet written.**
-
-## Draft learning goals
-
-- Frame a movement problem as a machine learning task (classification, regression, state estimation)
-- Train classical models first, then neural networks, and compare them honestly
-- Evaluate correctly: split by subject, not by random window, to avoid leakage
-- Report results with uncertainty and know when a model is not good enough
+**Status: written — synthetic-data training edition.**
 
 ## Prerequisites
+Levels 2 and 3a (or their checkpoints).
 
-Level 2 and Level 3a (or their checkpoints).
+## Work through this module
 
-## Checkpoint idea
+1. [Targets and baselines](lessons/01_framing.md)
+2. [Subject splits and preprocessing](lessons/02_splits.md)
+3. [Evaluation and uncertainty](lessons/03_evaluation.md)
 
-Given labeled feature data from several subjects, train and evaluate a model with a subject-wise split, and write a short, honest report of its performance and limits.
+Then complete the [guided project](project/README.md) and [checkpoint](checkpoint/README.md).
+All commands in task READMEs run from that task's directory. Install the root
+`requirements.txt` first. Tests deliberately fail on starter code.
 
-## Open questions before writing this module
-
-- Which prediction targets matter first (gait phase, activity or terrain, joint angle or torque, intent from EMG)?
-- Which ML framework the team standardizes on
+Data are synthetic; sensor ranges and thresholds are teaching assumptions,
+not WEAR hardware specifications. Discuss actual hardware choices with the team.
